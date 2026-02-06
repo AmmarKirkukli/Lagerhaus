@@ -1,0 +1,346 @@
+/* =========================
+   Allgemeine Stile
+   ========================= */
+   body {
+    background-color: #c4c8f2 !important;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+}
+
+/* =========================
+   Typografie
+   ========================= */
+h1, h2, h4 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.lead {
+    font-size: 1.25rem;
+    line-height: 1.8;
+}
+
+input::placeholder {
+    font-style: italic;
+    color: #adb5bd;
+}
+
+/* =========================
+   Navbar
+   ========================= */
+.navbar {
+    background-color: #5290ce;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5rem;
+    color: rgb(248, 248, 248);
+}
+
+.navbar .navbar-brand img {
+    border-radius: 5%;
+}
+
+.navbar .nav-link {
+    font-size: 1rem;
+    color: #adb5bd;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar .nav-link:hover {
+    color: #ffffff;
+}
+
+.navbar .nav-link.active {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* =========================
+   Sidebar
+   ========================= */
+.sidebar {
+    width: 250px;
+    background-color: #343a40;
+    color: white;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+
+.sidebar h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+
+.sidebar a:hover {
+    background-color: #495057;
+    color: #fff;
+}
+
+/* =========================
+   Content
+   ========================= */
+.content {
+    margin-left: 0px;
+    padding: 20px;
+}
+
+/* =========================
+   Karten-Stile
+   ========================= */
+.card {
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card-header {
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card-body {
+    background-color: #a7afc3 !important;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* =========================
+   Formulare
+   ========================= */
+.form-label {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #495057;
+}
+
+.form-control {
+    font-size: 1rem;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* =========================
+   Schaltflächen
+   ========================= */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-secondary {
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+.btn-outline-danger {
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: white;
+    border-color: #dc3545;
+}
+
+/* =========================
+   Tabellen
+   ========================= */
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+}
+
+.table th, .table td {
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+/* =========================
+   Warnungen
+   ========================= */
+.alert {
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border-color: #f5c6cb;
+    text-align: center;
+}
+
+/* =========================
+   usersite
+   ========================= */
+.usersite .avatar {
+    min-width: 40px;
+    font-size: 14px;
+}
+
+.usersite .table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+.usersite .table tbody tr:hover {
+    background-color: rgba(13, 110, 253, 0.05);
+}
+
+.usersite .btn-group .btn {
+    padding: 0.25rem 0.5rem;
+}
+
+.usersite .card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.usersite .card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+
+/* =========================
+   producteSite
+   ========================= */
+.producteSite .icon-box {
+    min-width: 40px;
+    font-size: 16px;
+}
+
+.producteSite .table tbody tr {
+    transition: all 0.2s ease;
+}
+
+.producteSite .table tbody tr:hover {
+    background-color: rgba(13, 110, 253, 0.05) !important;
+    transform: scale(1.01);
+}
+
+.producteSite .table-warning {
+    background-color: rgba(255, 193, 7, 0.1) !important;
+}
+
+.producteSite .btn-group .btn {
+    padding: 0.25rem 0.5rem;
+}
+
+.producteSite .card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.producteSite .card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.producteSite code {
+    font-size: 0.875rem;
+}
+
+.producteSite .alert {
+    border-left: 4px solid #ffc107;
+}
+
+@media print {
+    .producteSite .btn, .producteSite .card-header, .producteSite .card-footer {
+        display: none;
+    }
+}
+
+
+/* =========================
+   Medienabfragen
+   ========================= */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar .navbar-toggler {
+        border: none;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.nav-tabs .nav-link {
+    color: #495057;
+    font-weight: bold;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+}

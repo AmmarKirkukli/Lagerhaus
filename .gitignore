@@ -1,0 +1,30 @@
+# Composer
+/vendor/
+composer.lock
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Database
+*.sql
+
+# Sensitive data
+.env
+config.php
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
