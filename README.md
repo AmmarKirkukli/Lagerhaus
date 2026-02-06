@@ -35,7 +35,7 @@ A comprehensive warehouse management system built with PHP, following the MVC (M
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/Lagerhaus.git
+   git clone https://github.com/AmmarKirkukli
    ```
 
 2. Install dependencies:
